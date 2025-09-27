@@ -111,7 +111,7 @@
         <div class="form-check"><input class="form-check-input" type="radio" name="q12" value="2022-09-15"><label class="form-check-label">15 செப்டம்பர் 2022</label></div>
       </div>
 
-      <button type="button" class="btn btn-primary" onclick="checkAnswers()">Submit Quiz</button>
+      <button type="button" class="btn btn-primary mb-5" onclick="checkAnswers()">Submit Quiz</button>
     </form>
 
      <!-- <div id="alertBox" class="mt-4"></div> -->
@@ -165,7 +165,7 @@
         toastEl.className = "toast align-items-center text-bg-success border-0";
         toastMsg.innerHTML = `🎉 Excellent! You scored <strong>${score}</strong> out of <strong>${total}</strong>.`;
       } else {
-        toastEl.className = "toast align-items-center text-bg-warning border-0";
+        toastEl.className = "toast align-items-center text-bg-danger border-0";
         toastMsg.innerHTML = `⚠️ You scored <strong>${score}</strong> out of <strong>${total}</strong>. Try again!`;
       }
 
